@@ -1,0 +1,10 @@
+.password {
+  border: none;
+  padding: 0.375rem 0.75rem;
+}
+.password:focus {
+  outline: none;
+}
+.error {
+  border-color: red !important;
+}

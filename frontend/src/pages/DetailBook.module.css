@@ -1,0 +1,25 @@
+.number {
+  border: none;
+  border-top: var(--bs-border-width) var(--bs-border-style)
+    var(--bs-border-color) !important;
+  border-bottom: var(--bs-border-width) var(--bs-border-style)
+    var(--bs-border-color) !important;
+  width: 30px;
+  text-align: center;
+}
+.number:focus {
+  outline: none;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+.het {
+  background-color: #495057; /* Màu nền đen */
+  color: white; /* Màu chữ trắng */
+  width: 100px; /* Độ rộng */
+  height: 100px; /* Chiều cao */
+  border-radius: 50%; /* Hình tròn */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

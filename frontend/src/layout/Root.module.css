@@ -1,0 +1,8 @@
+.list a {
+  text-decoration: none;
+  color: #000;
+}
+.list a:hover,
+.list a.active {
+  color: #339af0;
+}

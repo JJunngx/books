@@ -1,0 +1,25 @@
+.number {
+  border: none;
+  border-top: var(--bs-border-width) var(--bs-border-style)
+    var(--bs-border-color) !important;
+  border-bottom: var(--bs-border-width) var(--bs-border-style)
+    var(--bs-border-color) !important;
+  width: 30px;
+  text-align: center;
+}
+.number:focus {
+  outline: none;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+.img {
+  height: 100px;
+  height: 100px;
+}
+.trash {
+  cursor: pointer;
+}
+.trash:hover {
+  color: #fa5252;
+}

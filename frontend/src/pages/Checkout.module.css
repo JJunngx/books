@@ -1,0 +1,25 @@
+.form input {
+  border: 1px solid #ced4da;
+  height: 40px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.form input:focus {
+  outline: none;
+}
+.form label {
+  text-transform: uppercase;
+}
+.btnOrder {
+  background-color: #343a40;
+  color: white;
+  border: none;
+  width: 170px;
+
+  padding: 5px 20px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.bg {
+  background-color: #f1f3f5;
+}
