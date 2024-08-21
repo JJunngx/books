@@ -88,7 +88,7 @@ const Books = () => {
       />
 
       <Row xs={2} lg={4}>
-        {books?.results.(book) => (
+        {books?.results.map((book) => (
           <Col key={book._id} className="mb-4">
             <Card>
               <Card.Img variant="top" src={`${book.imageUrl}`} />
