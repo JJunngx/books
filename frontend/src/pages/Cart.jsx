@@ -358,7 +358,7 @@ const Cart = () => {
         <>
           <p>Không có sản phẩm nào trong giỏ hàng</p>
           <Button variant="danger" onClick={() => navigate("/")}>
-            Mua sắnm ngay
+            Mua sắm ngay
           </Button>
         </>
       )}
